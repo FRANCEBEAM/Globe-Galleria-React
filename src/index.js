@@ -7,6 +7,7 @@ import {
   Link,
   Outlet,
 } from "react-router-dom";
+import './App.css';
 import Home from './routes/Home';
 import Destinations from './routes/Destinations';
 import ToursActivities from './routes/ToursActivities';
@@ -15,11 +16,13 @@ import Contact from './routes/Contact';
 
 import Navbar from "./components/Navbar";
 
+
 const AppLayout = () => {
   return (
     <>
       <Navbar />
       <Outlet />
+      
     </>
   )
 
@@ -31,7 +34,7 @@ const router = createBrowserRouter([
     element : <AppLayout />,
     children: [
       {
-        path: "home",
+        path: "/",
         element: <Home />,
       },
       {

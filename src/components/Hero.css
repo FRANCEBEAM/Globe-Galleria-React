@@ -1,0 +1,93 @@
+
+/* section.home-section{
+   background: red;
+ 
+} */
+
+/* :root {
+    --primary: #0e7ac4;
+    --secondary: #F5A623;
+    --bgcolor: #ffffff;
+    --fontcolor: #333333;
+    --loccolor: #E53935;
+} */
+
+
+div.home-container{
+    padding: 6em 1em;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.404)50%, rgba(0, 0, 0, 0.26)90%), url(/public/images/img-hero.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h1.title{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: var(--bgcolor);
+}
+
+p.sub-title{
+    margin-top: 3em;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-align: center;
+    color: var(--bgcolor);
+}
+
+div.search-field{
+    margin-top: 3em;
+}
+
+div.search-field > form {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+div.search-field > form > input{
+    border: none;
+    border-radius: 24px;
+    padding: 1.2em 3em;
+    width: 100%;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+div.search-field > form > button.btn-search{
+    position: absolute;
+    display: flex;
+    right: 0;
+    align-items: center;
+   
+    /* width: 70px; */
+    border: none;
+    background: var(--primary);
+    color: var(--bgcolor);
+    font-weight: bold;
+    border-radius: 24px;
+    padding: 1em;
+    margin: 0 2em;
+    cursor: pointer;
+    gap: .6em;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+button.btn-search:hover{
+    background: #03375a;
+    transition: 0.5s;
+}
+
+
+.location-logo{
+    margin: 0 1em;
+    position: absolute;
+    font-size: 20px;
+    color: var(--fontcolor);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+

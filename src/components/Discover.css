@@ -1,0 +1,22 @@
+
+div.discover-container{
+    padding: 0 1em;
+    background: var(--bgcolor);
+}
+
+div.discover-container > h1{
+    margin-top: 1em;
+    color: var(--fontcolor);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+div.discover-container > p{
+    margin-top: 1em;
+    color: var(--fontcolor);
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}

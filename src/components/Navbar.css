@@ -8,15 +8,19 @@
     display: flex;
     align-items: center;
     background-color: black;
-    height: 80px;
+    height: 100px;
     z-index: 999;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+
+  
   }
 
   div.navbar-container{
     display: flex;
     justify-content: space-between;
     height: 37px;
+
+
   }
 
   .navbar-logo{
@@ -24,7 +28,13 @@
     padding-left: 1em;
     text-decoration: none;
     color: #ffff;
-    font-size: 24px;
+    font-size: 20px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .menu-icon{
@@ -32,6 +42,7 @@
     position: absolute;
     color: #ffff;
     right: 0;
+    cursor: pointer;
     display: flex;
     justify-content: flex-end;
     font-size: 36px;
@@ -45,6 +56,15 @@
     transition: all 0.5s ease;
     left: -100%;
     width: 100%;
+
+    font-family: 'Archivo Narrow', sans-serif;
+  }
+
+  .navbar-icon{
+    margin-right: .4em;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
   }
 
   ul.nav-menu.active{
@@ -78,8 +98,77 @@
     transition: 0.5s;
   }
 
+  .booknow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    color: #ffffff;
+    background: #0e7ac4;
+    text-decoration: none;
+    font-weight: bold;
+    height: 60px;
+    width: 117px;
+  }
+
+
   @media screen and (min-width: 960px){
-    
+    .menu-icon{
+      display: none;
+    }
+
+    ul.nav-menu{
+
+      display: flex;
+      left: 0;
+      top: 9px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 0 1em;
+    }
+
+    ul.nav-menu.active{
+      background: unset;
+      transition: unset;
+    }
+
+    li.nav-item{
+      padding: 0 1em;
+      list-style: none;
+    }
+    .nav-links{
+     
+      color: #ffff;
+    }
+    .nav-links:hover{
+      background: none;
+    }
+
+    div.cta-container{
+      display: flex;
+      padding: 0 1em;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    /* .booknow-btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 7px;
+      color: #ffffff;
+      background: #0e7ac4;
+      text-decoration: none;
+      font-weight: bold;
+      height: 60px;
+      width: 110px;
+    } */
+
+
   }
 
 

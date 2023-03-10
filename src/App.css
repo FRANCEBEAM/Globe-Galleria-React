@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary: #0e7ac4;
+    --secondary: #F5A623;
+    --bgcolor: #ffffff;
+    --fontcolor: #333333;
+    --loccolor: #E53935;
+    --fontnarrow: 'Archivo Narrow', sans-serif;
+    --fontblack: 'Archivo Black', sans-serif;
+}
