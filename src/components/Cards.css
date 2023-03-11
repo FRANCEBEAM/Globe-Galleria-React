@@ -28,15 +28,15 @@ div.card-text-wrapper > h1{
     padding: .7em;
     text-align: center;
     color: var(--fontcolor);
-    font-size: 24px;
+    font-size: 23px;
     font-family: var(--fontblack);
 }
 
 div.card-text-wrapper > p{
     /* padding: 1.4em 1em 2em 0; */
-    padding: 1.4em;
+    padding: .7em;
+    padding-bottom: 2em;
     margin: 0 auto;
-    line-height: 27px;
     text-align: center;
     color: var(--fontcolor);
     font-size: 16px;
@@ -48,23 +48,33 @@ div.card-text-wrapper > p{
     border-radius: 12px;
 }
 
+
+
 li.card-item{
     margin-bottom: 4em;
     color: var(--fontblack);
 }
 
 
-
-.card-item-pic::after{
-    content: attr(data-category);
+.data-category{
     background: var(--bgcolor);
     border-radius: 7px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     position: absolute;
-    margin-top: 1em;
-    right: 2.7em;
+    margin-top: 1.7em;
+    right: 3.4em;
     padding: .4em;
     color: var(--fontcolor);
     font-family: var(--fontnarrow);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.loc-icon{
+    margin-right: .4em;
+    color: var(--loccolor);
 }

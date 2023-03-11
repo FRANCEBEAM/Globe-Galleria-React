@@ -4,6 +4,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Discover from '../components/Discover';
 import Cards from '../components/Cards';
+import Popular from '../components/Popular';
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
         <Hero />
         <Discover />
         <Cards />
+        <Popular />
     </div>
   )
 }

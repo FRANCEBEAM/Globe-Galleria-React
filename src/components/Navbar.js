@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import "./Navbar.css";
-import { FaArchway } from "react-icons/fa";
+import { FaTypo3 } from "react-icons/fa";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 
@@ -20,7 +20,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container container'>
             <Link to ="/" className='navbar-logo' onClick ={closeMobileMenu}>
-                <FaArchway className='navbar-icon' size={32}/>
+                <FaTypo3 className='navbar-icon' size={32}/>
                 Globe Galleria
             </Link>
             <div className='menu-icon' onClick={handleClick}>
