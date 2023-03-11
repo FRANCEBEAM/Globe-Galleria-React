@@ -31,3 +31,63 @@
     color: #fffffff2;
     font-weight: bold;
 }
+
+
+div.explore-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-explore{
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap-rightexplore{
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.explore-fig img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+/* .right-explore > .img1-explore{
+    border-radius: 12px;
+    position: absolute;
+    background: url(/public/images/img-9.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20%;
+    height: 30%;
+    z-index: 1;
+    gap: 2em;
+}
+
+.right-explore > .img2-explore{
+    position: absolute;
+    border-radius: 12px;
+    background: url(/public/images/img-10.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 30%;
+    z-index: 2;
+    margin-left: 10em;
+} */
+
+/* .right-explore > .img3-explore{
+    border-radius: 12px;
+    position: absolute;
+    background: url(/public/images/img-11.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 30%;
+    z-index: 3;
+} */

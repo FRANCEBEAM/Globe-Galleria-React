@@ -8,10 +8,14 @@ function PopularItem(props) {
   return (
     <div className='location-item-container'>
     <Link className='location-item'>
+        <div className='location-left'>
           <div className='head-location'>
-            <h1>{props.place}</h1>
-            <p>{props.placeName}</p>
+              <h1>{props.place}</h1>
+              <p>{props.placeName}</p>
           </div>
+        </div>
+
+        <div className='location-right'>
           <div className='content-location'>
             <div className='desc-location'>
               <p>{props.placeDesc}</p>
@@ -27,10 +31,12 @@ function PopularItem(props) {
               <p className='visit'>{props.visit}</p>
             </div>
             </div>
-             <figure className='map-place'>
+          </div>
+          <figure className='map-place'>
                 <img src={props.placeImg} alt="" />
              </figure>
-          </div>
+        </div>
+          
           {/* <div className='linebreak'></div> */}
     </Link>
     </div>

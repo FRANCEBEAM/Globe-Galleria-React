@@ -10,12 +10,12 @@ function About() {
   return (
     <div className='about-section'>
         <div className='about-container'>
-            <div className='left-content'>
+            <div className='left-about'>
                 <div className='about-img'>
                     
                 </div>
             </div>
-            <div className='right-content'>
+            <div className='right-about'>
               <div className='about-head'>
                 <p>Providing you with the highest level of service and support.</p>
                 <h1>loved by over million travellers</h1>
