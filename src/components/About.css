@@ -1,0 +1,45 @@
+
+
+.about-section{
+    padding: 6em 1em 6em;
+    background: #f2f2f2f2;
+}
+
+.about-head > p{
+    font-family: var(--fontnarrow);
+    color: #898989;
+    font-weight: bold;
+}
+
+.about-head > h1{
+    font-size: 27px;
+    font-family: var(--fontblack);
+    color: var(--fontcolor);
+    text-transform: uppercase;
+}
+
+.about-desc{
+    padding-top: 3em;
+}
+
+.about-desc > p {
+    font-family: var(--fontnarrow);
+    color: var(--fontcolor);
+}
+
+.about-function{
+    margin-top: 2.7em;
+}
+
+.functonalities{
+    font-family: var(--fontnarrow);
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.functonalities > p{
+    margin-left: 10px;
+    font-size: 14px;
+    color: var(--fontcolor);
+}

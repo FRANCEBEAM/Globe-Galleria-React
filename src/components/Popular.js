@@ -40,11 +40,11 @@ function Popular() {
                     />
                 </div>
             </div>
-            
-
-
         </div>
 
+    <div className='button-wrapper'>
+        <button className='btn-more'>Explore more</button>
+    </div>
 
     </section>
   )

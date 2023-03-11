@@ -5,7 +5,7 @@ div.card-container{
 }
 
 div.card-wrapper{
-    margin-top: 6em;
+    margin-top: 1em;
 }
 
 li{
@@ -28,7 +28,7 @@ div.card-text-wrapper > h1{
     padding: .7em;
     text-align: center;
     color: var(--fontcolor);
-    font-size: 23px;
+    font-size: 20px;
     font-family: var(--fontblack);
 }
 
@@ -77,4 +77,32 @@ li.card-item{
 .loc-icon{
     margin-right: .4em;
     color: var(--loccolor);
+}
+
+
+@media screen and (min-width: 648px){
+
+  .card-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  .card-item{
+    display: flex;
+    margin: 1em;
+    max-width: 280px;
+  }
+
+  .data-category{
+    position: absolute;
+    display: flex;
+    left: 4em;
+    width: 140px;
+  }
+
+  li.data-category:nth-child(2){
+    position: absolutepositio;
+    margin-right: 4em;
+  }
 }

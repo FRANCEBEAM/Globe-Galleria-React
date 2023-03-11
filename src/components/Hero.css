@@ -16,7 +16,6 @@
 div.home-container{
     padding: 6em 1em;
     background-image: linear-gradient(to top,rgba(0, 0, 0, 0.404)50%, rgba(0, 0, 0, 0.26)90%), url(/public/images/img-hero.jpg);
-    height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -25,7 +24,7 @@ div.home-container{
 h1.title{
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     color: var(--bgcolor);
 }
 
@@ -33,11 +32,11 @@ p.sub-title{
     margin-top: 3em;
     font-family: 'Archivo Narrow', sans-serif;
     text-align: center;
-    color: var(--bgcolor);
+    color: #f2f2f2f2;
 }
 
 div.search-field{
-    margin-top: 3em;
+    margin-top: 4em;
 }
 
 div.search-field > form {
@@ -50,7 +49,7 @@ div.search-field > form {
 div.search-field > form > input{
     border: none;
     border-radius: 24px;
-    padding: 1.2em 3em;
+    padding: 1.4em 3em;
     width: 100%;
     font-family: 'Archivo Narrow', sans-serif;
 }
@@ -72,11 +71,12 @@ div.search-field > form > button.btn-search{
     cursor: pointer;
     gap: .6em;
     font-family: 'Archivo Narrow', sans-serif;
+    z-index: 1;
 }
 
-button.btn-search:hover{
-    background: #03375a;
-    transition: 0.5s;
+.btn-search:hover{
+    background: #052a42;
+    transition: ease-in-out 0.3s;
 }
 
 
@@ -91,3 +91,50 @@ button.btn-search:hover{
     align-items: center;
 }
 
+
+@media screen and (min-width: 648px){
+    .home-container > h1{
+        font-size: 36px;
+    }
+
+    .home-container > p{
+        padding: 0 7em;
+        font-size: 20;
+    }
+
+    form{
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+
+    .location-logo{
+        right: 120px;
+        position: relative;
+        
+        z-index: 1;
+    }
+
+    input{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        max-width: 440px;
+    }
+    
+    /* form > .btn-search{
+        margin-right: 400px;
+    } */
+    div.search-field > form > button.btn-search{
+        position: relative;
+        display: flex;
+        left: 10em;
+        align-items: center;
+        border: none;
+        padding: 1em;
+        /* margin: 0 2em; */
+        cursor: pointer;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+}

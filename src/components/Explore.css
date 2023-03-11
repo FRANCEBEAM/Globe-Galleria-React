@@ -1,0 +1,33 @@
+
+.explore-container{
+    padding: 6em 1em 6em;
+    background: var(--bggreen);
+}
+
+.explore-desc > p {
+    font-family: var(--fontnarrow);
+    color: #d8d8d8;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.explore-desc > h1 {
+    font-family: var(--fontblack);
+    color: #f2f2f2;
+    font-size: 32px;
+}
+
+.explore-btn{
+    padding-top: 3em;
+}
+
+.btn-started{
+    padding: .7em 2em;
+    border: none;
+    background: var(--secondary);
+    font-family: var(--fontnarrow);
+    font-size: 16px;
+    border-radius: 27px;
+    color: #fffffff2;
+    font-weight: bold;
+}

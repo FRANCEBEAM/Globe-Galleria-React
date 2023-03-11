@@ -1,12 +1,13 @@
 
 
-section.popular-section{
-    padding: 0 1em;
-    height: 100vh;
+.popular-container{
+    padding: 4em 1em 1em;
+    /* height: 147vh; */
+    
 }
 
 .head-content > h1{
-    font-size: 32px;
+    font-size: 27px;
     font-family: var(--fontblack);
     color: var(--fontcolor);
     text-align: left;
@@ -32,3 +33,27 @@ section.popular-section{
 /* .popular-item{
     margin: 2em;
 } */
+
+.button-wrapper{
+    padding-bottom: 4em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-more{
+    cursor: pointer;
+    border: none;
+    border-radius: 32px;
+    font-family: var(--fontnarrow);
+    font-weight: 500;
+    background: var(--primary);
+    color: var(--bgcolor);
+    padding: 1em 2em;
+    font-size: 14px;
+}
+
+.btn-more:hover{
+    background: #0d639c;
+    transition: ease-in-out 0.2s;
+}

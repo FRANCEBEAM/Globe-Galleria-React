@@ -6,6 +6,7 @@ import { FaStar } from 'react-icons/fa'
 
 function PopularItem(props) {
   return (
+    <div className='location-item-container'>
     <Link className='location-item'>
           <div className='head-location'>
             <h1>{props.place}</h1>
@@ -32,6 +33,7 @@ function PopularItem(props) {
           </div>
           {/* <div className='linebreak'></div> */}
     </Link>
+    </div>
   )
 }
 
