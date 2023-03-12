@@ -69,9 +69,27 @@ function Navbar() {
                      </div>
                      </NavLink>
                   </li>
-               </div>
+               </div> 
         
             </ul>
+{/* 
+            <div className='cta-container'>
+                  <li className='nav-item' onClick ={closeMobileMenu}>
+                     <NavLink to='/contact' className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}>
+                           Sign in
+                     </NavLink>
+                  </li>
+
+                  <li className='nav-item' onClick ={closeMobileMenu}>
+                     <NavLink to='/contact' className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")}>
+                     <div className='cta'>
+                           <Link to='' className='booknow-btn'>
+                              Book now
+                           </Link>
+                     </div>
+                     </NavLink>
+                  </li>
+               </div> */}
         </div>
       </nav>
     </IconContext.Provider>

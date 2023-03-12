@@ -1,11 +1,12 @@
 import React from 'react'
+import '../components/AboutPage.css'
 
-function About() {
+function ToursActivities() {
   return (
-    <div className='about-container'>
-      <h1>About</h1>
+    <div className='aboutroute-container'>
+        <h1>About</h1>
     </div>
   )
 }
 
-export default About
+export default ToursActivities

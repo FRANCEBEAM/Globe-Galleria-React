@@ -73,9 +73,9 @@ function Footer() {
                 <li className='col4-item'>
                     <h1>Subscribe to Our Newsletter</h1>
                 </li>
-                <li>
+                <li className='col4-item'>
                     <div className='email-form'>
-                        <form>
+                        <form className='footer-form'>
                             <input className="email-field" placeholder='Email'/>
                             <button className='btn-sub'>Subscribe</button>
                         </form>
@@ -86,26 +86,49 @@ function Footer() {
             </ul>
           </div>
           <div className='footer-row2'>
-            <div className='row2-items'>
-                <smail>Copyright © 2023 Globe Galleria. All rights reserved.</smail>
-                    <div className='socials'>
-                        <Link to="/" className='social-link'>
-                            <FaFacebookF className='social-icon' size={30}/>
-                        </Link>
+            <ul className='row2-items'>
+                <li className='row2-item'>
+                    <smail>Copyright © 2023 Globe Galleria. All rights reserved.</smail>
+                </li>
+                {/* <smail>Copyright © 2023 Globe Galleria. All rights reserved.</smail> */}
+                {/* <li className='row2-item'>
+                    <Link to="/" className='social-link'>
+                        <FaFacebookF className='social-icon' size={30}/>
+                    </Link>
 
-                        <Link to="/" className='social-link'>
-                            <FaInstagram className='social-icon' size={30}/>
-                        </Link>
+                    <Link to="/" className='social-link'>
+                        <FaInstagram className='social-icon' size={30}/>
+                    </Link>
 
-                        <Link to="/" className='social-link'>
-                            <FaTwitter className='social-icon' size={30}/>
-                        </Link>
+                    <Link to="/" className='social-link'>
+                        <FaTwitter className='social-icon' size={30}/>
+                    </Link>
 
-                        <Link to="/" className='social-link'>
-                            <FaYoutube className='social-icon' size={30}/>
-                        </Link>
-                    </div>
-            </div>
+                    <Link to="/" className='social-link'>
+                        <FaYoutube className='social-icon' size={30}/>
+                    </Link>
+                </li> */}
+            </ul>
+
+            <ul className='row2-items'>
+            <li className='row2-item'>
+                    <Link to="/" className='social-link'>
+                        <FaFacebookF className='social-icon' size={30}/>
+                    </Link>
+
+                    <Link to="/" className='social-link'>
+                        <FaInstagram className='social-icon' size={30}/>
+                    </Link>
+
+                    <Link to="/" className='social-link'>
+                        <FaTwitter className='social-icon' size={30}/>
+                    </Link>
+
+                    <Link to="/" className='social-link'>
+                        <FaYoutube className='social-icon' size={30}/>
+                    </Link>
+                </li>
+            </ul>
           </div>
         </div>
       </div>

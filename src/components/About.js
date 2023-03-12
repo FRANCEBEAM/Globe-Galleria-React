@@ -12,7 +12,9 @@ function About() {
         <div className='about-container'>
             <div className='left-about'>
                 <div className='about-img'>
-                    
+                    <figure>
+                        <img src='./images/img-8.jpg'/>
+                    </figure>
                 </div>
             </div>
             <div className='right-about'>

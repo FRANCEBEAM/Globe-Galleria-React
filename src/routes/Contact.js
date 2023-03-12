@@ -1,11 +1,12 @@
 import React from 'react'
+import '../components/ContactPage.css'
 
-function Contact() {
+function ToursActivities() {
   return (
     <div className='contact-container'>
-        <h1>Contact</h1>
+        <h1>Contact Us</h1>
     </div>
   )
 }
 
-export default Contact
+export default ToursActivities

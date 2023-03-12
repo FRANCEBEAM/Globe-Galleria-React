@@ -29,7 +29,7 @@
     text-decoration: none;
     color: #ffff;
     font-size: 20px;
-
+    z-index: 1;
     display: flex;
 
     justify-content: center;
@@ -68,9 +68,10 @@
   }
 
   ul.nav-menu.active{
-    background: #ffff;
+    background: #000000;
+    height: 574px;
     transition: all 0.6s ease;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     list-style: none;
   }
@@ -90,12 +91,16 @@
     width: 100%;
     padding: .4em auto;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
   }
 
   .nav-links:hover{
-    background: red;
-    transition: 0.5s;
+    background: var(--primary);
+    transition: ease-in-out 0.3s;
+  }
+
+  div.cta-container{
+    font-family: var(--fontnarrow);
   }
 
   .booknow-btn{
@@ -112,8 +117,25 @@
   }
 
 
-  @media screen and (min-width: 960px){
+  @media screen and (min-width: 1092px){
+
+    nav.navbar{
+      background: unset;
+      position: absolute;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .navbar-logo{
+      left: 0;
+    }
+
     .menu-icon{
+      
       display: none;
     }
 
@@ -155,6 +177,13 @@
       bottom: 0;
     }
 
+    .booknow-btn:hover{
+      background: #09588d;
+      transition: ease-in-out 0.3s;
+    }
+
+
+
     /* .booknow-btn{
       display: flex;
       align-items: center;
@@ -172,7 +201,27 @@
   }
 
 
+@media screen and (min-width: 1200px){
+    .navbar-container.container{
+      width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      align-items: center; 
+    }
 
+    ul.nav-menu {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      top: 0px;
+      bottom: 0px;
+      font-size: 16px;
+    }
+
+
+       
+}
 
  
+
 

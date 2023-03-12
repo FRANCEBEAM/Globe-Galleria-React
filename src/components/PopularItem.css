@@ -19,16 +19,17 @@
     text-decoration: none;
 }
 
-.head-location > h1{
-    padding-top: 1em;
-    font-family: var(--fontblack);
+div.head-location > h1{
+    padding-top: .7em;
+    font-size: 34px;
+    font-family: var(--fontnarrow);
     text-transform: uppercase;
     color: var(--fontcolor);
 }
 
 .head-location > p{
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 500;
     font-family: var(--fontnarrow);
     color: var(--fontcolor);
 }

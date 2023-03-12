@@ -48,11 +48,16 @@ div.search-field > form {
 
 div.search-field > form > input{
     border: none;
-    border-radius: 24px;
+    border-radius: 36px;
     padding: 1.4em 3em;
     width: 100%;
     font-family: 'Archivo Narrow', sans-serif;
 }
+
+div.search-field > form > button.btn-search:hover{
+    background: #052a42;
+    transition: ease-in-out 0.3s;
+ }
 
 div.search-field > form > button.btn-search{
     position: absolute;
@@ -65,7 +70,7 @@ div.search-field > form > button.btn-search{
     background: var(--primary);
     color: var(--bgcolor);
     font-weight: bold;
-    border-radius: 24px;
+    border-radius: 36px;
     padding: 1em;
     margin: 0 2em;
     cursor: pointer;
@@ -160,15 +165,21 @@ div.search-field > form > button.btn-search{
 @media screen and (min-width: 1200px){
     .home-container{
         width: 1200px;
-        height: 100vh;
+        height: 974px;
+        margin: 0 auto;
+    }
+
+    .hero-content{
+        padding-top: 14em;
+        width: 1147px;
+        justify-content: center;
         margin: 0 auto;
     }
 
 
 
     .hero-content > h1{
-        margin: 0 auto;
-        width: 1200px;
+      
         font-size: 62px;
     }
 
@@ -181,9 +192,29 @@ div.search-field > form > button.btn-search{
         width: unset;
     }
 
-    /* input{
-        max-width: 1200px;
-    } */
+    .location-logo{
+        font-size: 27px;
+        right: 297px;
+    }
+
+    input{
+        max-width: 824px;
+        padding: 1.9em;
+        border-radius: 36px;
+        font-size: 16px;
+    }
+
+    div.search-field > form > button.btn-search{
+       
+        left: 297px;
+        padding: 1.2em 2.4em;
+    }
+
+    ::placeholder { 
+        padding-left: 1em;
+        font-size: 17px;
+      }
+      
 
     /* .btn-search{
         position: relative;

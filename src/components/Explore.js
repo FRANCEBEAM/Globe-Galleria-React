@@ -26,7 +26,6 @@ function Explore() {
                         <img src='/images/img-11.jpg' />
                     </figure>
                 </div>
-       
             </div>
         </div>
     </section>

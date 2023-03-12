@@ -58,6 +58,20 @@
     transition: ease-in-out 0.2s;
 }
 
+@media screen and (min-width: 648px){
+    .head-content > p{
+        width: 520px;
+    }
+}
+
+@media screen and (min-width: 785px){
+
+
+    
+
+
+}
+
 @media screen and (min-width: 845px){
 
         .head-content{
@@ -70,7 +84,7 @@
 
         .head-content > p{
             padding: 0;
-            margin-left:  3em;
+            margin-left: 2.4em;
              width: 490px;
         }
 
@@ -107,4 +121,23 @@
         max-width: 300px;
        }
    
+}
+
+
+@media screen and (min-width: 1200px) {
+    div.popular-container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    div.head-content > h1 {
+        font-size: 42px;
+    }
+    div.head-content > p {
+        font-size: 16px;
+    }
+
+    figure.map-place{
+        margin-left: 6em;
+    }
 }

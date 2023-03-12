@@ -1,4 +1,5 @@
 import React from 'react'
+import '../components/DestiPage.css'
 
 function Destinations() {
   return (
